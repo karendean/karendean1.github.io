@@ -31,7 +31,18 @@
 </div>
 <footer>
   <span>Contact: kd1594@nyu.edu</span>
+	<span><button id="clickme">
+		Click me! 
+		
+		</button></span>
 </footer>
+		<script> 
+		document.getElementById("clickme").onclick=buttonclick;
+		function buttonclick() {
+			
+		document.getElementsByTagName("body")[0].style.cursor = "url('https://v2-assets.glossier.com/assets/build/icons/svg/pictos/i-ico--s--bolt-d9039664ac96cb94d8d0c0c994820a5c194400059f413d3366c19c4f241627f8.svg'), auto";
+		}
+		</script>
 </body>
 
 </html>
