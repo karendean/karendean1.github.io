@@ -11,14 +11,14 @@
 	width:100%;
 	
 }
-.button {
+.clickme {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 	font-family: Futura, Medium; 
 	font-size: 15pt; 
 }
 
-.button:hover {
+.clickme:hover {
     background-color: #CA0000; 
     color: white;
 }
