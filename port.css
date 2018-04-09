@@ -11,7 +11,17 @@
 	width:100%;
 	
 }
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	font-family: Futura, Medium; 
+	font-size: 15pt; 
+}
 
+.button:hover {
+    background-color: #CA0000; 
+    color: white;
+}
 .big{
     width: 50%;
     line-height: 200px;
