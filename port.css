@@ -12,8 +12,6 @@
 	
 }
 .clickme {
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
 	font-family: Futura, Medium; 
 	font-size: 15pt; 
 }
